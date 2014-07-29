@@ -2,8 +2,34 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="20dp" >
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/browse"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,5 +65,5 @@
         android:layout_marginBottom="10dp"
         android:text="@string/home_advantage3"
         android:textAppearance="?android:attr/textAppearanceMedium" />
-    
+
 </LinearLayout>
